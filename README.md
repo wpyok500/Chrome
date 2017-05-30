@@ -1,1 +1,1 @@
-# wpyhosts
+# Chrome资源
