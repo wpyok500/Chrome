@@ -1,0 +1,64 @@
+
+先root（安装kingroot），开启root权限。我先把没用的都卸载了，特别是乐视的升级服务
+再安装ES文件浏览器，注意开启root工具箱。
+修改/etc/hosts 文件如下。
+127.0.0.1               localhost
+127.0.0.1       policy.cde.le.com
+127.0.0.1       antileech.cp21.OTT.cibntv.net
+127.0.0.1       live.g3proxy.cp21.ott.cibntv.net
+127.0.0.1       baishanlive.scloud.letv.com
+127.0.0.1       selector.webp2p.cp21.ott.cibntv.net
+127.0.0.1       push-scloud.cp21.ott.cibntv.net
+127.0.0.1       s.webp2p.cp21.ott.cibntv.net
+127.0.0.1       api-hdtv.cp21.ott.cibntv.net
+127.0.0.1       tvmanager-scloud.cp21.ott.cibntv.net
+127.0.0.1       livedesk-scloud.cp21.ott.cibntv.net
+127.0.0.1       appdesk-scloud.cp21.ott.cibntv.net
+127.0.0.1       ark.cp21.ott.cibntv.net
+127.0.0.1       static.cp21.ott.cibntv.net
+127.0.0.1       upgrade-hdtv.cp21.ott.cibntv.net
+127.0.0.1       upgrade.itv.cp21.ott.cibntv.net
+127.0.0.1       g3.letv.com
+127.0.0.1       g3.letv.cn
+
+
+4、删除/fastplay目录（谨慎，删除了开机广告没了，但是会有一段黑屏，保留15秒广告感觉更好，我删了再也弄不回去）
+5、系统设置，删除桌面所有数据。恢复类似出厂设置的界面
+6、再重启，就不会再有广告推送了，但是乐视的首页播放一直是缓冲状态，不知道哪个地址是。（搞了好几天，也不想搞了，求高人能把首页干掉）
+  ps，下面附加上内核的日志，大家可以分析一下，附件怎么传？
+
+
+
+======================
+127.0.0.1       policy.cde.le.com
+127.0.0.1       antileech.cp21.OTT.cibntv.net
+127.0.0.1       live.g3proxy.cp21.ott.cibntv.net
+127.0.0.1       baishanlive.scloud.letv.com
+127.0.0.1       selector.webp2p.cp21.ott.cibntv.net
+127.0.0.1       push-scloud.cp21.ott.cibntv.net
+127.0.0.1       s.webp2p.cp21.ott.cibntv.net
+127.0.0.1       api-hdtv.cp21.ott.cibntv.net
+127.0.0.1       tvmanager-scloud.cp21.ott.cibntv.net
+127.0.0.1       livedesk-scloud.cp21.ott.cibntv.net
+127.0.0.1       appdesk-scloud.cp21.ott.cibntv.net
+127.0.0.1       ark.cp21.ott.cibntv.net
+127.0.0.1       static.cp21.ott.cibntv.net
+127.0.0.1       upgrade-hdtv.cp21.ott.cibntv.net
+127.0.0.1       upgrade.itv.cp21.ott.cibntv.net
+127.0.0.1       g3.letv.com
+127.0.0.1       g3.letv.cn
+127.0.0.1       log.hdtv.cp21.ott.cibntv.net
+127.0.0.1       cert.ott.cibntv.net
+127.0.0.1       api-oeco-itv-letv.yysh.mgtv.com
+127.0.0.1       api.platform.letv.com
+127.0.0.1       s.webp2p.letv.com
+127.0.0.1       antileech-letv.yysh.mgtv.com
+127.0.0.1       dc-letv.yysh.mgtv.com
+127.0.0.1       picture-scloud.cp21.ott.cibntv.net
+127.0.0.1       tvp-api-letv.yysh.mgtv.com
+127.0.0.1       stargazer-scloud.cp21.ott.cibntv.net
+127.0.0.1       vip-open-letv.yysh.mgtv.com
+127.0.0.1       api-oeco-itv-letv.yysh.mgtv.com
+127.0.0.1       tvp-api-letv.yysh.mgtv.com
+127.0.0.1       odp.cp21.ott.cibntv.net
+127.0.0.1       device-scloud.cp21.ott.cibntv.net
